@@ -1,3 +1,10 @@
+---
+name: "Bug Report"
+about: "Testing template for CTOR_H2AI_CTO_P2M2R1G1_V1 (no Migration operation)"
+title: ""
+labels: bug
+assignees: ""
+---
 # CTOR-H2AI Bug Report Template
 **Version under test:** CTOR_H2AI_CTO_P2M2R1G1_V1  
 **Note:** This version does NOT include the Migration operation.
