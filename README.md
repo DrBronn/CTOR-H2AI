@@ -1,28 +1,61 @@
-# CTOR-H2AI
-# CTOR‑H2H — Official Human‑vs‑Human Reference Implementation
+# CTOR‑H2AI — Official Human‑vs‑AI Training and Gameplay Platform
 
-CTOR‑H2H is the canonical reference implementation of CTOR for human‑versus‑human play.  
-This repository defines the official ruleset, move‑validation engine, match structure, and baseline tools used for competitive CTOR sessions across the CTOR‑Federation ecosystem.
+CTOR‑H2AI is the official CTOR platform for human‑versus‑AI gameplay.  
+This repository provides the foundational engine, AI integration interfaces, and used for player education, research, and future commercial applications, including mobile CTOR products.
 
 ## Development Background
 
-The initial version of CTOR‑H2H was originally implemented as a local two‑player game using HTML, CSS, and JavaScript.  
-It was tested directly on the author’s computer and included three core operations from the official CTOR ruleset:
+The game logic was written in HTML, CSS, and JavaScript and tested locally by the author and upload to oficial web site CTOR GAME Inc. https://ctorgame.com/ai
 
-- **Put** — placing two new chips  
-- **Move** — moving two an existing chips  
-- **Replace** — replacing two own chips to one own chip  
+The initial AI‑ready version supports the three core CTOR operations:
+
+For gamer:
+
+**Put** — placing a two new chips 
+**Move** — moving an two existing chips   
+**Replace** — replacing two own chips to one own chip    
+
+For AI Agent (in first version):
+**Put** - placing a two new chips 
+
+The limitations of a single-operation AI bot are related to the complexity of creating a truly playable bot. 
+As the project develops, we plan to use more powerful AI algorithms, such as:
+
+Strong Player Heuristics
+Minimax Method
+Monte Carlo Method
+Learning by Examples
+Self-Learning Based on Neural Networks
+
+
+## Purpose
+
+CTOR‑H2AI is designed to:
+
+- Provide a clean, standardized API for integrating AI agents  
+- Support multiple difficulty levels and adaptive training modes  
+- Enable research in decision‑making, heuristics, and reinforcement learning  
+- Serve as the foundation for CTOR mobile and desktop applications  
+- Prepare the ecosystem for large‑scale Human‑vs‑AI competitions  
 
 ## Long‑Term Vision
 
-The ultimate goal of CTOR‑H2H is to evolve into a full online platform comparable to established Go and Chess servers, enabling both amateur and professional CTOR players to compete, study games, and participate in official tournaments.
+The long‑term goal of CTOR‑H2AI is to power a full‑scale online platform where players can train against AI opponents of varying strength, similar to modern Go and Chess servers.  
+It will support:
+
+- Ranked Human‑vs‑AI matches  
+- AI tutors and training modes  
+- Opening libraries and strategy modules  
+- Integration with mobile CTOR applications  
+- Federation‑approved competitive formats  
 
 ## Repository Structure
 
-/src            — core implementation (H2H_Comet_Base)
+/src            — core Human‑vs‑AI engine and integration modules
+/ai             — baseline AI agents and evaluation tools
 /tests          — validation and correctness tests
-/docs           — specifications, diagrams, and protocol descriptions
-/examples       — sample matches and usage examples
+/docs           — specifications, API descriptions, and diagrams
+/examples       — sample AI matches and training scenarios
 /roadmap        — development plans and release notes
 
 ## Standards Alignment
@@ -31,15 +64,17 @@ This implementation follows the official CTOR Standards:
 - **CTOR‑S‑0001** — Core Rules  
 - **CTOR‑S‑0002** — Digital Move Protocol  
 - **CTOR‑S‑0003** — Tournament Rules  
+- **CTOR‑S‑0005** — Human‑vs‑AI Integration Guidelines (in development)  
 
-All updates to this repository must remain compliant with federation‑approved specifications.
+All updates must remain compliant with federation‑approved specifications.
 
 ## Development Goals
 
-- Maintain architectural purity and reproducibility  
-- Provide a stable foundation for competitive CTOR events  
-- Support integration with future CTOR platforms  
-- Enable academic and research use  
+- Provide a robust, extensible AI integration layer  
+- Maintain compatibility with CTOR‑H2H and CTOR‑AI‑AI  
+- Support research in AI strategy and evaluation  
+- Enable commercial‑grade mobile and desktop applications  
+- Ensure reproducibility and transparency for academic use  
 
 ## License and Trademark
 
@@ -48,5 +83,5 @@ CTOR is a registered trademark; see the **NOTICE** file for details.
 
 ## Status
 
-Version: **v1.0.0 (in preparation)**  
-This release will include the complete H2H_Comet_Base implementation and full documentation.
+Version: **v0.1.0 (in preparation)**  
+This release will include the baseline AI agent, integration API, and initial training tools.
