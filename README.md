@@ -1,3 +1,13 @@
+## Report Issues and Test Results
+
+If you want to report bugs or submit testing results, please use the issue tracker:
+
+👉 https://github.com/DrBronn/CTOR-H2AI/issues
+
+All testers have read‑only access to the repository.  
+You may download the engine file and run tests locally.
+
+
 ## Development Background
 
 The initial Human‑vs‑AI prototype was implemented in HTML, CSS, and JavaScript, tested locally by the author, and later uploaded to the official CTOR GAME Inc. website: https://ctorgame.com/ai.
