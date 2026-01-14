@@ -1,32 +1,24 @@
-# CTOR‑H2AI — Official Human‑vs‑AI Training and Gameplay Platform
-
-CTOR‑H2AI is the official CTOR platform for human‑versus‑AI gameplay.  
-This repository provides the foundational engine, AI integration interfaces, and used for player education, research, and future commercial applications, including mobile CTOR products.
-
 ## Development Background
 
-The game logic was written in HTML, CSS, and JavaScript and tested locally by the author and upload to oficial web site CTOR GAME Inc. https://ctorgame.com/ai
+The initial Human‑vs‑AI prototype was implemented in HTML, CSS, and JavaScript, tested locally by the author, and later uploaded to the official CTOR GAME Inc. website: https://ctorgame.com/ai.
 
-The initial AI‑ready version supports the three core CTOR operations:
+The first AI‑ready version supported three core CTOR operations:
 
-For gamer:
+### For the human player:
+- **Put** — placing two new chips  
+- **Move** — moving two existing chips  
+- **Replace** — replacing two own chips with one own chip  
 
-**Put** — placing a two new chips 
-**Move** — moving an two existing chips   
-**Replace** — replacing two own chips to one own chip    
+### For the AI agent (first version):
+- **Put** — placing two new chips  
 
-For AI Agent (in first version):
-**Put** - placing a two new chips 
+The limitation to a single AI operation reflects the complexity of building a fully playable AI opponent. As the project evolves, more advanced AI techniques will be introduced, including:
 
-The limitations of a single-operation AI bot are related to the complexity of creating a truly playable bot. 
-As the project develops, we plan to use more powerful AI algorithms, such as:
-
-Strong Player Heuristics
-Minimax Method
-Monte Carlo Method
-Learning by Examples
-Self-Learning Based on Neural Networks
-
+- Strong player heuristics  
+- Minimax search  
+- Monte Carlo methods  
+- Learning from examples  
+- Self‑learning based on neural networks  
 
 ## Purpose
 
@@ -40,9 +32,9 @@ CTOR‑H2AI is designed to:
 
 ## Long‑Term Vision
 
-The long‑term goal of CTOR‑H2AI is to power a full‑scale online platform where players can train against AI opponents of varying strength, similar to modern Go and Chess servers.  
-It will support:
+The long‑term goal of CTOR‑H2AI is to power a full‑scale online platform where players can train against AI opponents of varying strength, similar to modern Go and Chess servers.
 
+The platform will support:
 - Ranked Human‑vs‑AI matches  
 - AI tutors and training modes  
 - Opening libraries and strategy modules  
@@ -50,7 +42,6 @@ It will support:
 - Federation‑approved competitive formats  
 
 ## Repository Structure
-
 /src            — core Human‑vs‑AI engine and integration modules
 /ai             — baseline AI agents and evaluation tools
 /tests          — validation and correctness tests
